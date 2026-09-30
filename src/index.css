@@ -1351,6 +1351,20 @@ h1, h2, h3, h4, h5 {
   color: var(--brand-red-light);
 }
 
+.footer-credit-link {
+  color: var(--warm-white);
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 253, 249, 0.35);
+  text-underline-offset: 0.18em;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.footer-credit-link:hover,
+.footer-credit-link:focus-visible {
+  color: var(--brand-red-light);
+  text-decoration-color: var(--brand-red-light);
+}
+
 .footer-bottom {
   display: flex;
   align-items: center;

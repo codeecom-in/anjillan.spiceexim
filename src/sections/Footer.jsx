@@ -104,7 +104,26 @@ export default function Footer() {
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
-            <span>Incoterms 2020: FOB &bull; CIF &bull; CFR</span>
+            <span>
+              Developed by{' '}
+              <a
+                href="https://roshan.codeecom.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-credit-link"
+              >
+                Muhammed Roshan
+              </a>{' '}
+              for{' '}
+              <a
+                href="https://codeecom.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-credit-link"
+              >
+                Codeecom.in
+              </a>
+            </span>
             <button
               type="button"
               onClick={scrollToTop}
